@@ -3,8 +3,8 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SEMIDEUS - IA Pessoal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,8 +14,9 @@
     </div>
 
     <div class="interface">
-        <input type="text" id="comando" placeholder="Digite seu comando..." autofocus />
+        <input type="text" id="comando" placeholder="Digite ou fale seu comando..." />
         <button onclick="responder()">Enviar</button>
+        <button onclick="ouvirComando()">Falar</button>
         <div id="resposta"></div>
     </div>
 

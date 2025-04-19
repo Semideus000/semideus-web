@@ -43,7 +43,7 @@ button {
     font-weight: bold;
     border: none;
     cursor: pointer;
-    margin-left: 10px;
+    margin: 5px;
 }
 
 #resposta {
